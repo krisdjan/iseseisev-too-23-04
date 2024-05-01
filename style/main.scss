@@ -1,0 +1,196 @@
+h1 {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+p {
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2rem;
+}
+
+.main {
+    background-color: peachpuff;
+}
+
+
+.oskused {
+    background-color: rgb(166, 231, 231);
+    p {
+        text-align: center;
+    }
+
+}
+
+.kontakt {
+    background-color: rgb(255, 145, 145);
+    background-image: url('https://www.tlu.ee/~krisdjan/eesrakendused/koduleht/pics/tlu.png');
+    background-size: 5%;
+    background-repeat: repeat;
+    text-align: center;
+    a {
+        
+        font-family:cursive;
+        font-size: 4rem;
+        color: black;
+        text-decoration: none;
+    }
+
+    a:hover {
+        color: white;
+        text-shadow: 3px 3px black;
+    }
+}
+
+// .hobid {
+//     text-align: center;
+//     background-color: pink;
+// }
+
+// .hobiMediaArea {
+//     display: inline-block;
+//     vertical-align: middle;
+// }
+
+// .hobiTextArea {
+//     display: inline-block;
+//     vertical-align: top;
+// }
+// .fp-section {
+//     display: flex;
+//     justify-content: center; /* Adjust or remove as needed */
+//     text-align: center;
+// }
+
+.hobid {
+    text-align: center;
+    vertical-align: middle;
+    background-color: salmon;
+}
+
+.muss {
+    text-align: center;
+    background-color: rgb(95, 222, 95);
+    p {
+        text-shadow: 3px 4px rgba(1, 0, 0, 0.2);
+    }
+}
+
+.mussTextArea {
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    h1 {
+        color: white;
+        text-shadow: 0px -30px rgb(0, 0, 0);
+    }
+    h1:hover {
+        color: rgb(0, 0, 0);
+        text-shadow: 0px -30px rgb(255, 255, 255);
+    }
+}
+
+.mussArtistArea {
+    padding-left: 5%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.mang {
+    height: 100%;
+    margin: 0;
+    background: rgb(142, 142, 142);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    a {
+        text-decoration: none;
+        color: white;
+    }
+    a:hover {
+        color: lightblue;
+    }
+}
+
+#quest {
+    height: 30%;
+    width: 50vh;
+    border-radius: 10vh;
+}
+
+#ableton {
+    height: 50%;
+    width: 50%vh;
+}
+
+#kell {
+    height: 50%;
+    width: 50%;
+    border-radius: 10vh;
+}
+
+.tood {
+    background-color: rgb(255, 191, 73);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+// mõttetu kordus aga ei saa veel 100% aru kuidas display töötab
+.toopilt {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tootekst {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    a {
+        text-decoration: none;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 4rem;
+        color: black;
+    }
+    a:hover {
+        color: white;
+        text-shadow: 3px 3px black;
+    }
+}
+
+#menu a {
+	display:inline-block;
+	margin: 10px;
+	color: #000;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: none;
+}
+
+#play {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#menu a:hover {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#menu a:active {
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#menu{
+	position: fixed;
+    top:0;
+	left:0;
+	height: 0;
+	z-index: 70;
+	width: 0;
+	padding: 0;
+	margin:0;
+}

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>kristjansarv</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/4.0.22/fullpage.min.css" integrity="sha512-i5IHYtHBVvbgT6M4ltVKNqF7fh/MTVfGh3ilW1gxxgmlMocsl8aYz28aF0Iph+ceUpun06UW9CpExog9qXqFKQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style/main.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/4.0.22/vendors/easings.min.js" integrity="sha512-SrKslwu6IjHEo/8mAOtkoUOT3MzHCEOFWktrC8BNtjPuBBYLYjg1y/Marat34uYfOfxDMLEwy8DLArWEVc2i+w==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,400i" rel="stylesheet">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/amplitudejs@latest/dist/amplitude.min.js"></script>
+  
+</head>
+    <body>
+        <div id="fullpage">
+            <nav>
+                <ul id="menu">
+                    <li data-menuanchor="pealeht"><a href="#pealeht">PEalEHt</a></li>
+                    <li data-menuanchor="oskused"><a href="#oskused">oskuSEd</a></li>
+                    <li data-menuanchor="kontakt"><a href="#kontakt">konTAKt</a></li>
+                    <li data-menuanchor="muusika"><a href="#muusika">muUsIKA</a></li>
+                    <li data-menuanchor="hobid"><a href="#hobid">hoBiD</a></li>
+                    <li data-menuanchor="hobid"><a href="#tood">tÖöD</a></li>
+                    <li data-menuanchor="hobid"><a href="#mang">mÄNg</a></li>
+                </ul>
+            </nav>
+            <div class="section main"> 
+                <h1>tere</h1>
+            </div>
+            <div class="section oskused">
+                <div class="slide s1">
+                    <p>oskan veits</p>
+                </div>
+                <div class="slide s2">
+                    <p>midagi</p>
+                </div>
+                <div class="slide s3">
+                    <p>idk</p>
+                </div>
+            </div>
+            <div class="section kontakt">
+                <a href="mailto: krisdjan@tlu.ee">krisdjan@tlu.ee</a>
+            </div>
+            <div class="section muss">
+                <div class="mussTextArea">
+                    <!-- ??????? -->
+                    <h1>kristjani lemmik muusikakollektiiv</h1> 
+                    <h1>kristjani lemmik muusikakollektiiv</h1>
+                    <h1>kristjani lemmik muusikakollektiiv</h1>
+                    <h1>kristjani lemmik muusikakollektiiv</h1>
+                    <h1>kristjani lemmik muusikakollektiiv</h1>
+                    <h1>kristjani lemmik muusikakollektiiv</h1>
+                    <h1>kristjani lemmik muusikakollektiiv</h1>
+                    <h1>kristjani lemmik muusikakollektiiv</h1>
+                    <h1>kristjani lemmik muusikakollektiiv</h1>
+                    <h1>kristjani lemmik muusikakollektiiv</h1>
+                </div>
+                <div class="mussArtistArea">
+                    <img data-src="pics/quest.jpeg" alt="A Tribe Called Quest" id="quest">
+                    <p>A Tribe Called Quest</p>
+                    <iframe style="border-radius:12px" src="https://open.spotify.com/embed/artist/09hVIj6vWgoCDtT03h8ZCa?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                </div>
+            </div>
+            <div class="section hobid">
+                <div class="slide muusikaprodu">
+                    <h1>maitsetu muusika produ.</h1>
+                    <img data-src="pics/ableton.jpg" alt="ableton" id="ableton">
+                </div>
+                <div class="slide player">
+                    <script src="src/amplitude.js" defer></script>
+                    <div id="single-song-player">
+                        <img data-amplitude-song-info="cover_art_url"/>
+                        <div class="bottom-container">
+                          <progress class="amplitude-song-played-progress" id="song-played-progress"></progress>
+                  
+                          <div class="time-container">
+                            <span class="current-time">
+                              <span class="amplitude-current-minutes"></span>:<span class="amplitude-current-seconds"></span>
+                            </span>
+                            <span class="duration">
+                              <span class="amplitude-duration-minutes"></span>:<span class="amplitude-duration-seconds"></span>
+                            </span>
+                          </div>
+                  
+                          <div class="control-container">
+                            <div class="amplitude-play-pause" id="play-pause"></div>
+                            <div class="meta-container">
+                              <span data-amplitude-song-info="name" class="song-name"></span>
+                              <span data-amplitude-song-info="artist"></span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>            
+                </div>
+            </div>
+            <div class="section tood">
+                <div class="toopilt">
+                    <img data-src="pics/too1.png" alt="Kell" id="kell">
+                </div>
+                <div class="tootekst">
+                    <a href="https://github.com/krisdjan/eesrakendused-kodutoo1" target="_blank">KELL</a>
+                </div>
+            </div>
+            <div class="section mang">
+                <h1>'WS' 'OL'</h1>
+                <canvas width="750" height="585" id="game"></canvas>
+                <br>
+                <a href="https://gist.github.com/straker/81b59eecf70da93af396f963596dfdc5" target="_blank">Pong by Steven Lambert</a>
+                <script src="src/pong.js"></script>
+            </div>
+        </div>
+
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/4.0.22/fullpage.min.js" integrity="sha512-yHHLi2ZwgtW9QNVZd0asqMyWGJ6Kx73ijKlGWSi3MwYFB5ZzOJV8wPtopKr6muHk5SERgF3OB/2dZj3StlI34w==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="src/script.js"></script> 
+        
+    </body>
+</html>
